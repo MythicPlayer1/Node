@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Documentation</title>
+</head>
+<body>
+    <h1>Welcome <%=userData.name%></h1>
+    <p><%=userData.email%></p>
+    <p>From <%=userData.city%></p>
+    <h2>Skillls Required</h2>
+    <ul>
+        <% userData.skills.forEach((item)=>{ %>
+            <li><%=item%></li>
+        <% })%>
+    </ul>
+    
+</body>
+</html>

@@ -1,2 +1,9 @@
-const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost:27017/e-comm')
+
+//connection of mongoose with the datebase
+const mongoose = require('mongoose');
+mongoose.set('strictQuery',true);
+mongoose.connect("mongodb://localhost:27017/e-comm");
+
+
+
+

@@ -1,5 +1,5 @@
-const mongoose = require('mongoose')
-const { stringify } = require('nodemon/lib/utils')
+const mongoose = require('mongoose');
+
 const schemas= mongoose.Schema(
     {
         name: String,
@@ -7,7 +7,5 @@ const schemas= mongoose.Schema(
         price: Number, 
         category: String,
     }
-
-
 )
-module.exports=  mongoose.model('Products',schemas);
+module.exports=  mongoose.model('mobiles',schemas);
